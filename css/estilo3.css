@@ -1,0 +1,32 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+main{
+    min-height: 100vh;
+    padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "m m m m"
+    "h h h h"
+    "a a g j " 
+    "f f f f"
+    ;
+}
+.menu{
+    grid-area: m;
+}
+.grid-1{
+    grid-area: h;
+}
+.grid-2{
+    grid-area: a;
+}
+.grid-3{
+    grid-area: g;
+
+}
+.grid-4{
+    grid-area: j;
+}
+.grid-5{
+    grid-area: f;
+}
